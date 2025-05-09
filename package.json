@@ -1,0 +1,24 @@
+{
+  "name": "projet-electron",
+  "version": "1.0.0",
+  "description": "avoir node.js installé puis faire ``npm install`` dans le projet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo-pdf/projet-electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/neo-pdf/projet-electron/issues"
+  },
+  "homepage": "https://github.com/neo-pdf/projet-electron#readme",
+  "devDependencies": {
+    "electron": "^36.2.0"
+  }
+}

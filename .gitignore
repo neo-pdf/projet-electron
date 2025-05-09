@@ -134,3 +134,21 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Electron build artifacts
+/dist
+/out
+/*.asar
+
+# Electron crash reports
+**/crash-reports
+
+# MacOS-specific Electron files
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+
+# Linux-specific
+*.swp
+
