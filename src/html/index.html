@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script type="module" src="../js/script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
+  
+  <title>Labyrinthe Electron</title>
+
+</head>
+<body>
+  <h1>Labyrinthe Electron</h1>
+
+  <div class="taille-generation">
+    <select name="taille" id="taille-select">
+      <option value="">Choisir une taille</option>
+      <option value=25>Petit</option>
+      <option value=51>Moyen</option>
+      <option value=75>Grand</option>
+      <option value=255>Enorme</option>
+    </select>
+
+    <button id="bouton">Génère le labyrinthe !</button>
+    <p id="paragraphe"></p>
+  </div>
+  
+  <canvas id="labyrinthe-canva" width="600" height="600"></canvas>
+  
+</body>
+</html>
